@@ -17,9 +17,9 @@ const App = () => {
     .finally(() => setLoadHotels(false))
   }, [])
   
-  useEffect(() => {
-    setTimeout(() => setFormShow(true), 10000)
-  }, [])
+  // useEffect(() => {
+  //   setTimeout(() => setFormShow(true), 10000)
+  // }, [])
   return (
   <div>
     <h1>Hotels</h1>

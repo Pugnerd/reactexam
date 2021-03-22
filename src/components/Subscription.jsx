@@ -9,7 +9,7 @@ const Subscription = ({ close }) => {
   
   const submitForm = () => {
     setLoading(true)
-    fetch("https://seriescharacters.com/api/newsletter", {
+    fetch("api/hotels/subcribe", {
       methof: 'POST',
       headers: {
         'Accept': 'application/json',
